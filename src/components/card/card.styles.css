@@ -1,0 +1,19 @@
+.card{
+    text-align: center;
+    padding: 20px;
+    background: #0078d4;
+    border-radius: 10px;
+    border: 1px solid #494c50;
+    transition: transform 0.25s ease-in;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+
+h2{
+    padding: 15px 0;
+}
